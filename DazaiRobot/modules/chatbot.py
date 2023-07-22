@@ -143,7 +143,7 @@ __help__ = f"""
  »  /ᴄʜᴀᴛʙᴏᴛ *:* sʜᴏᴡs ᴄʜᴀᴛʙᴏᴛ ᴄᴏɴᴛʀᴏʟ ᴘᴀɴᴇʟ
 """
 
-__mod_name__ = "Cʜᴀᴛʙᴏᴛ"
+__mod_name__ = "ᑕᕼᗩTᗷOT"
 
 
 CHATBOTK_HANDLER = CommandHandler("chatbot", dazai, run_async=True)
