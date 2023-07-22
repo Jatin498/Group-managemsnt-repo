@@ -48,11 +48,11 @@ if ENV:
     REDIS_URL = os.environ.get("REDIS_URL", None)
     NO_LOAD = os.environ.get("NO_LOAD", "").split()
     START_IMG = os.environ.get(
-        "START_IMG", "https://telegra.ph/file/31f2989f6306e8bbf1aa9.jpg"
+        "START_IMG", "https://graph.org/file/6468a53d4774b0b677ddb.jpg"
     )
     PM_START_IMG = os.environ.get("PM_START_IMG", None)
     STRICT_GBAN = bool(os.environ.get("STRICT_GBAN", True))
-    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "DevilsHeavenMF")
+    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "JHBots")
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
     TOKEN = os.environ.get("TOKEN", None)
     TIME_API_KEY = os.environ.get("TIME_API_KEY", None)
