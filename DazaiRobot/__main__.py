@@ -81,9 +81,9 @@ PM_START_TEX = """
 
 PM_START_TEXT = """ 
 *ᴋᴏɴɴɪᴄʜɪᴡᴀ* {}, [💌]({})
-*ᴛʜɪs ɪs* ᴅᴀ𝓩ᴀɪ 
+*ᴛʜɪs ɪs* Mᴀᴅᴀʀᴀ ⋊ Uᴄʜɪʜᴀ 
 ✦⋆⋇────────────────⋇⋆✦
-⦿ ɪ'ᴍ ᴀ ᴩᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴀsᴇᴅ ᴏɴ ʙᴜɴɢᴏ sᴛʀᴀʏ ᴅᴏɢs ᴀɴɪᴍᴇ[.](https://te.legra.ph/file/625f9ebeb21d04427adc6.jpg)
+⦿ ɪ'ᴍ ᴀ ᴩᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴀsᴇᴅ ᴀɴɪᴍᴇ[.](https://graph.org/file/5c113ab1fd9690eaf16c8.jpg)
 
 ✦⋆⋇────────────────⋇⋆✦
 ⦿ *ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ.*
@@ -106,7 +106,7 @@ buttons = [
 ]
 
 HELP_STRINGS = f"""
-     [{BOT_NAME}](https://telegra.ph/file/14191d1c1439b3b04583b.jpg)
+     [{BOT_NAME}](https://graph.org/file/6468a53d4774b0b677ddb.jpg)
 ✦━━━━━━━━━━━━━━━━━━━━✦
 ➼ *ᴄʟɪᴄᴋ ᴏɴ ᴀ sᴘᴇᴄɪғɪᴄ ᴍᴏᴅᴜʟᴇ ᴛᴏ ɢᴇᴛ ɪᴛ's ɢᴜɪᴅᴇʟɪɴᴇs*.
 ✦━━━━━━━━━━━━━━━━━━━━✦
@@ -706,7 +706,7 @@ def main():
         try:
             dispatcher.bot.sendAnimation(
                 f"@{SUPPORT_CHAT}",
-                animation="https://te.legra.ph/file/0479c847b0bc301f663c1.mp4",
+                animation="https://graph.org/file/2904688233933fd7e64fc.mp4",
                 caption=f"""
 ㅤ{BOT_NAME} ɪs ʙᴀᴄᴋ ᴛᴏ ᴡᴏʀᴋ!
 """,
