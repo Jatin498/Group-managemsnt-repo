@@ -3,7 +3,7 @@ import requests
 from pyrogram import filters
 from pyrogram.types import CallbackQuery
 
-from DazaiRobot import app
+from DazaiRobot import pbot
 from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
 from DazaiRobot import DB_URI
 
@@ -32,7 +32,7 @@ async def nekomode_off(chat_id: int):
     )
 
 
-@app.on_message(filters.command("wallpaper"))
+@pbot.on_message(filters.command("wallpaper"))
 async def wallpaper(client, message):
     chat_id = message.chat.id
     nekomode_status = await is_nekomode_on(chat_id)
@@ -44,21 +44,21 @@ async def wallpaper(client, message):
         await message.reply_photo(photo=img_url)
 
 
-@app.on_message(filters.command("nekomode on"))
+@pbot.on_message(filters.command("nekomode on"))
 async def enable_nekomode(client, message):
     chat_id = message.chat.id
     await nekomode_on(chat_id)
     await message.reply("Nekomode has been enabled.")
 
 
-@app.on_message(filters.command("nekomode off"))
+@pbot.on_message(filters.command("nekomode off"))
 async def disable_nekomode(client, message):
     chat_id = message.chat.id
     await nekomode_off(chat_id)
     await message.reply("Nekomode has been disabled.")
 
 
-@app.on_message(
+@pbot.on_message(
     filters.command(
         [
             "waifu",
