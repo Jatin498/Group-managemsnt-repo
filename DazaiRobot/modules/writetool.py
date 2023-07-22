@@ -43,7 +43,7 @@ __help__ = """
 WRITE_HANDLER = DisableAbleCommandHandler("write", handwrite, run_async=True)
 dispatcher.add_handler(WRITE_HANDLER)
 
-__mod_name__ = "WʀɪᴛᴇTᴏᴏʟ"
+__mod_name__ = "ᗯᖇITᗴ"
 
 __command_list__ = ["write"]
 __handlers__ = [WRITE_HANDLER]
