@@ -37,4 +37,4 @@ async def repo(_, message: Message):
     )
 
 
-__mod_name__ = "Rᴇᴩᴏ"
+__mod_name__ = "ᖇᗴᑭO"
