@@ -3,9 +3,9 @@ import requests
 from pyrogram import filters
 from pyrogram.types import CallbackQuery
 
-from REPO import app
+from DazaiRobot import app
 from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
-from REPO import DB_URI
+from DazaiRobot import DB_URI
 
 mongo = MongoClient(DB_URI)
 dbname = mongo.NekoDb
