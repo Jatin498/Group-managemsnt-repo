@@ -135,7 +135,7 @@ async def set_mataa(_, m):
     else:
         await kirimPesan(m, "Invalid command. Use <code>/detectimposter on/off</code> to enable or disable Imposter Detection in your chat.")
 
-__mod_name__ = "ɪᴍᴘᴏsᴛᴇʀ ᴅᴇᴛᴇᴄᴛɪᴏɴ"
+__mod_name__ = "IᗰᑭOՏTᗴᖇ ᗪᗴTᗴᑕTIOᑎ"
 __help__ = """
 *• /detectimposter:* Use this command to track name and username changes in the group. If a user changes their name and username, the bot will send a message showing any related changes.
 
