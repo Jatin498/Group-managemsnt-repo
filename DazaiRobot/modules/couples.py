@@ -31,7 +31,7 @@ CAP = """
 {0} + {1} = 💘\n
 `ɴᴇᴡ ᴄᴏᴜᴘʟᴇ ᴏғ ᴛʜᴇ ᴅᴀʏ ᴄᴀɴ ʙᴇ ᴄʜᴏsᴇɴ ᴀᴛ 12AM {2}`
 """
-COUPLES_PIC = "https://te.legra.ph/file/1a51f3b709f83df326c75.jpg"
+COUPLES_PIC = "https://graph.org/file/cfd9c4e33d3d3be783573.jpg"
 
 
 @pgram.on_message(filters.command("scouple") & filters.group)
