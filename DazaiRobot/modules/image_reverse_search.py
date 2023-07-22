@@ -44,7 +44,7 @@ reverse_cmd = CommandHandler(
 )
 dispatcher.add_handler(reverse_cmd)
 
-__mod_name__ = "ʀᴇᴠᴇʀsᴇ"
+__mod_name__ = "ᖇᗴᐯᗴᖇՏᗴ"
 __help__ = """
 ~ /reverse |pp |grs |p : Does a reverse image search of the media which it was replied to.
 """
