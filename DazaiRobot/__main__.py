@@ -80,7 +80,7 @@ PM_START_TEX = """
 
 
 PM_START_TEXT = """ 
-*ᴋᴏɴɴɪᴄʜɪᴡᴀ* {}, [💌]({})
+*ᗯᗩKᗴ ᑌᑭ TO ᖇᗴᗩᒪITY!* {}, [💌]({})
 *ᴛʜɪs ɪs* Mᴀᴅᴀʀᴀ ⋊ Uᴄʜɪʜᴀ 
 ✦⋆⋇────────────────⋇⋆✦
 ⦿ ɪ'ᴍ ᴀ ᴩᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴀsᴇᴅ ᴀɴɪᴍᴇ[.](https://graph.org/file/5c113ab1fd9690eaf16c8.jpg)
@@ -91,16 +91,17 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="⚓ sᴜᴍᴍᴏɴ ᴍᴇ ⚓",
+            text="⚓ ՏᑌᗰᗰOᑎ ᗰᗴ ⚓",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="🫧 ᴅᴇᴠ 🫧", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="♻️ sᴜᴩᴩᴏʀᴛ ♻️", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="🫧 ᗪᗴᐯ 🫧", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="♻️ ՏᑌᑭᑭOᖇT ♻️", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
-        InlineKeyboardButton(text="🍁 ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs 🍁", callback_data="help_back"),
+        InlineKeyboardButton(text="🫧 ᗰᑌՏIᑕ 🫧", url=f"https://t.me/Nobara_Music_Bot?start=new"),
+        InlineKeyboardButton(text="🍁 ᕼᗴᒪᑭ & ᑕOᗰᗰᗩᑎᗪՏ 🍁", callback_data="help_back"),
     ],
     
 ]
@@ -112,7 +113,7 @@ HELP_STRINGS = f"""
 ✦━━━━━━━━━━━━━━━━━━━━✦
 """
 
-DONATE_STRING = """ʜᴇʏ ʙᴀʙʏ,
+DONATE_STRING = """ʜᴇʏ ,
   ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ.
 
 ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [ᴅᴇᴠᴇʟᴏᴩᴇʀ](f"tg://user?id={OWNER_ID}") ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ [sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ](f"https://t.me/{SUPPORT_CHAT}") ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
