@@ -317,7 +317,7 @@ __handlers__ = [
 ]
 
 
-__mod_name__ = "ᴀɴɪᴍᴀᴛɪᴏɴ"
+__mod_name__ = "ᗩᑎIᗰᗩTIOᑎ"
 
 __help__ = """
 ➛ `/love` ❣️
