@@ -88,7 +88,7 @@ async def bing_search(client: Client, message: Message):
 
 
 
-__mod_name__ = "__help__"= """
+__help__= """
 AI-Powered Chatbot.
 
 *Available commands:*
