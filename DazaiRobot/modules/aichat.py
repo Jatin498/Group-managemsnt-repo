@@ -5,6 +5,9 @@ from pyrogram.types import Message
 from DazaiRobot import pbot as app
 
 
+# Dictionary to store the conversation history for each user
+conversation_history = {}
+
 @app.on_message(filters.command("chat"))
 async def gpt(_: Client, message: Message):
     txt = await message.reply("💬")
