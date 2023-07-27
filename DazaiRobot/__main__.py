@@ -187,7 +187,6 @@ def test(update: Update, context: CallbackContext):
     print(update.effective_message)
 
 
-@run_async
 def start(update: Update, context: CallbackContext):
     args = context.args
     uptime = get_readable_time((time.time() - StartTime))
@@ -201,12 +200,14 @@ def start(update: Update, context: CallbackContext):
                     return
                 send_help(
                     update.effective_chat.id,
-                    HELPABLE[mod].__help__,
+                    HELPABLE[mod].help,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="BACK", callback_data="help_back")]]
                     ),
                 )
 
+            elif args[0].lower() == "markdownhelp":
+                IMPORTED["Exᴛʀᴀs"].markdown_help_sender(update)
             elif args[0].lower().startswith("stngs_"):
                 match = re.match("stngs_(.*)", args[0].lower())
                 chat = dispatcher.bot.getChat(match.group(1))
@@ -216,9 +217,9 @@ def start(update: Update, context: CallbackContext):
                 else:
                     send_settings(match.group(1), update.effective_user.id, True)
 
-            elif args[0][1:].isdigit() and "rules" in IMPORTED:
-                IMPORTED["rules"].send_rules(update, args[0], from_pm=True)
-
+            elif args[0][1:].isdigit() and "rᴜʟᴇs" in IMPORTED:
+                IMPORTED["rᴜʟᴇs"].send_rules(update, args[0], from_pm=True)
+           
         else:
             first_name = update.effective_user.first_name
             
