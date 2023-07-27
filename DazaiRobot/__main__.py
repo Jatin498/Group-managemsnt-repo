@@ -91,17 +91,17 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="⚓ ՏᑌᗰᗰOᑎ ᗰᗴ ⚓",
+            text="⚓ Sᴜᴍᴍᴏɴ Mᴇ ⚓",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="🫧 ᗪᗴᐯ 🫧", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="♻️ ՏᑌᑭᑭOᖇT ♻️", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="🫧 Dᴇᴠ 🫧", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="♻️ Sᴜᴘᴘᴏʀᴛ ♻️", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
-        InlineKeyboardButton(text="🫧 ᗰᑌՏIᑕ 🫧", url=f"https://t.me/Nobara_Music_Bot?start=new"),
-        InlineKeyboardButton(text="🍁 ᕼᗴᒪᑭ & ᑕOᗰᗰᗩᑎᗪՏ 🍁", callback_data="help_back"),
+        InlineKeyboardButton(text="🫧 Mᴜsɪᴄ 🫧", url=f"https://t.me/Nobara_Music_Bot?start=new"),
+        InlineKeyboardButton(text="🍁 Cᴏᴍᴍᴀɴᴅs 🍁", callback_data="help_back"),
     ],
     
 ]
