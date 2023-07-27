@@ -2,7 +2,7 @@ import requests
 import httpx
 from pyrogram import filters, Client, idle
 from pyrogram.types import Message
-from DazaiRobot import app
+from DazaiRobot import pbot as app
 
 
 @app.on_message(filters.command("chat"))
