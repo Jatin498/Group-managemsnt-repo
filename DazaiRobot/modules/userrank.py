@@ -15,6 +15,7 @@ import seaborn as sns
 import schedule
 import time
 import asyncio  
+from DazaiRobot import pbot as app
 
 @app.on_message(
     ~filters.bot
