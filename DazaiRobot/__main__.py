@@ -109,7 +109,7 @@ buttons = [
 HELP_STRINGS = f"""
      [{BOT_NAME}](https://graph.org/file/8946b4d7db589a3432664.mp4)
 ⚝────────────────⚝
-➼ *ᴄʟɪᴄᴋ ᴏɴ ᴀ sᴘᴇᴄɪғɪᴄ ᴍᴏᴅᴜʟᴇ ᴛᴏ ɢᴇᴛ ɪᴛ's ɢᴜɪᴅᴇʟɪɴᴇs*.
+➼ *ᑕᒪIᑕK Oᑎ ՏᑭᗴᑕIᖴIᑕ ᗰOᗪᑌᒪᗴ TO ᘜᗴT ITՏ ᘜᑌIᗪᗴᒪIᑎᗴՏ*.
 ⚝────────────────⚝
 """
 
@@ -402,7 +402,7 @@ def dazai_about_callback(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="Uᴘᴅᴀᴛᴇꜱ", 
-                            url="https://t.me/yamada_updates",
+                            url="https://t.me/JHBots",
                         ),
                     ],
                     [
