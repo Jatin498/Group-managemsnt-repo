@@ -89,6 +89,43 @@ async def bing_search(client: Client, message: Message):
     except Exception as e:
         await message.reply_text(f"An error occurred: {str(e)}")
 
+BASE_URL = 'https://api.safone.me'
+
+def ask_bard(question):
+    endpoint = f"{BASE_URL}/bard"
+    headers = {'Content-Type': 'application/json'}
+    body = {'message': question}
+    
+    try:
+        response = requests.post(endpoint, json=body, headers=headers)
+        response_data = response.json()
+        
+        if response.ok:
+            choices = response_data.get('choices', [])
+            if choices:
+                return choices[0]['content'][0]
+            else:
+                return "Error: No response content found."
+        else:
+            print(f"Error: {response.status_code}, {response_data}")
+            return f"Error: {response.text}"
+    except requests.RequestException as e:
+        return f"Error occurred: {e}"
+
+# Command handler for the /ask command
+@app.on_message(filters.command("bard", prefixes="/"))
+async def ask_command_handler(client: Client, message: Message):
+    question = " ".join(message.command[1:])
+    if question:
+        # Show typing status to simulate processing
+        await message.reply_chat_action("typing")
+        time.sleep(2)  # Simulate processing time
+
+        response_content = ask_bard(question)
+        await message.reply(response_content)
+    else:
+        await message.reply("Please provide a question after the /ask command.")
+
 
 
 __help__= """
@@ -99,10 +136,12 @@ AI-Powered Chatbot.
  ➛ /chat - Chat with me. Usage: /chat hey
  ➛ /bing <keyword>
 For example: /bing cats
+ ➛ /bard - Chat with me. Usage: /bard who are you
 """
 
 __mod_name__ = "ᗩI ᑕᕼᗩT"   
 __command_list__ = [
     "chat",
     "bing",
+    "bard",
 ]
