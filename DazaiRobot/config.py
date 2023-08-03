@@ -9,7 +9,7 @@ class Config(object):
 
     DATABASE_URL = "postgres://hsmuekcu:mL-fqMUTRXpd2-i7BTNXlLPM9mS9HtKg@snuffleupagus.db.elephantsql.com/hsmuekcu"  # A sql database url from elephantsql.com
 
-    EVENT_LOGS = MadaraUchihaBotLog)  # Event logs channel to note down important bot level events
+    EVENT_LOGS = "MadaraUchihaBotLog"  # Event logs channel to note down important bot level events
 
     REDIS_URL = "redis://default:Wmy7H43tmBvnieH5QbPdlPSHEFFgLyMS@redis-17894.c257.us-east-1-3.ec2.cloud.redislabs.com:17894" # Get it from redis.com
 
