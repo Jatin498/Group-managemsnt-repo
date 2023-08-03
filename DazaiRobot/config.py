@@ -2,31 +2,31 @@ class Config(object):
     LOGGER = True
 
     # Get this value from my.telegram.org/apps
-    API_ID = 6
-    API_HASH = "b0efa30bfcf3c419be6cf5db84e62c45"
+    API_ID = 19099900
+    API_HASH = "2b445de78e5baf012a0793e60bd4fbf5"
 
-    CASH_API_KEY = ""  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
+    CASH_API_KEY = "PRPSG4AY3Q3H0QG0"  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
 
-    DATABASE_URL = ""  # A sql database url from elephantsql.com
+    DATABASE_URL = "postgres://hsmuekcu:mL-fqMUTRXpd2-i7BTNXlLPM9mS9HtKg@snuffleupagus.db.elephantsql.com/hsmuekcu"  # A sql database url from elephantsql.com
 
-    EVENT_LOGS = ()  # Event logs channel to note down important bot level events
+    EVENT_LOGS = MadaraUchihaBotLog)  # Event logs channel to note down important bot level events
 
-    REDIS_URL = "" # Get it from redis.com
+    REDIS_URL = "redis://default:Wmy7H43tmBvnieH5QbPdlPSHEFFgLyMS@redis-17894.c257.us-east-1-3.ec2.cloud.redislabs.com:17894" # Get it from redis.com
 
-    MONGO_DB_URI = ""  # Get ths value from cloud.mongodb.com
+    MONGO_DB_URI = "mongodb+srv://sonu55:sonu55@cluster0.vqztrvk.mongodb.net/?retryWrites=true&w=majority"  # Get ths value from cloud.mongodb.com
 
     # Telegraph link of the image which will be shown at start command.
-    START_IMG = "https://telegra.ph/file/ee28ffa1fa36ac19faa41.jpg"
+    START_IMG = "https://graph.org/file/60e01e9303094d231be1f.jpg"
 
-    PM_START_IMG = "https://te.legra.ph/file/625f9ebeb21d04427adc6.jpg"
+    PM_START_IMG = "https://graph.org/file/60e01e9303094d231be1f.jpg"
 
-    SUPPORT_CHAT = "The_Apexx"  # Your Telegram support group chat username where your users will go and bother you
+    SUPPORT_CHAT = "JHBots"  # Your Telegram support group chat username where your users will go and bother you
 
-    TOKEN = ""  # Get bot token from @BotFather on Telegram
+    TOKEN = "6330964987:AAGGGM2iz-2hTmZLkiigTQgTCHMPePRC6AY"  # Get bot token from @BotFather on Telegram
 
-    TIME_API_KEY = ""  # Get this value from https://timezonedb.com/api
+    TIME_API_KEY = "S3J6EISOC17L"  # Get this value from https://timezonedb.com/api
 
-    OWNER_ID = 6171176459  # User id of your telegram account (Must be integer)
+    OWNER_ID = "6198858059"  # User id of your telegram account (Must be integer)
 
     # Optional fields
     BL_CHATS = []  # List of groups that you want blacklisted.
